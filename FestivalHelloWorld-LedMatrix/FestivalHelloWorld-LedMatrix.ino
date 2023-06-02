@@ -61,7 +61,7 @@ WiFiServer server(80);
 
 // Scrolling parameters
 uint8_t frameDelay = 25;  // default frame delay value
-textEffect_t	scrollEffect = PA_SCROLL_LEFT, PA_FLIP_UD;
+textEffect_t	scrollEffect = PA_SCROLL_LEFT;
 
 // Global message buffers shared by Wifi and Scrolling functions
 #define BUF_SIZE  512
